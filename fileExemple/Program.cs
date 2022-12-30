@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using fileExemple.Interfaces;
+using fileExemple.Middlewares;
 using fileExemple.Repositories;
 using fileExemple.Services;
 using MediatR;
@@ -18,6 +19,7 @@ builder.Services.AddMediatR(assembly);
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddScoped<IFileRepository, FileRepository>();
 builder.Services.AddScoped<IExcelFileBuilderService, ExcelFileBuilderService>();
+builder.Services.AddScoped<IUploadService, UploadService>();
 
 
 builder.Services.AddControllers();
@@ -55,6 +57,10 @@ if (app.Environment.IsDevelopment())
         //setup.SwaggerEndpoint($"./fileExemple/swagger.json", )
     });
 }
+
+//Caso queira usar um middleware de exception
+//app.UseMiddleware<ExceptionHandlerMiddleware>();
+
 
 app.UseHttpsRedirection();
 
