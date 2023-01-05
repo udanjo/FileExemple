@@ -46,3 +46,16 @@ fileExemple/obj/Debug/net6.0/project.razor.json
 fileExemple/obj/Debug/net6.0/staticwebassets.build.json
 fileExemple/obj/Debug/net6.0/ref/fileExemple.dll
 fileExemple/obj/Debug/net6.0/refint/fileExemple.dll
+tests/fileExempleTests/obj/fileExempleTests.csproj.nuget.dgspec.json
+tests/fileExempleTests/obj/fileExempleTests.csproj.nuget.g.props
+tests/fileExempleTests/obj/fileExempleTests.csproj.nuget.g.targets
+tests/fileExempleTests/obj/project.assets.json
+tests/fileExempleTests/obj/project.nuget.cache
+tests/fileExempleTests/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.AssemblyInfo.cs
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.AssemblyInfoInputs.cache
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.assets.cache
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.csproj.AssemblyReference.cache
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.csproj.CoreCompileInputs.cache
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.csproj.FileListAbsolute.txt
+tests/fileExempleTests/obj/Debug/net6.0/fileExempleTests.GeneratedMSBuildEditorConfig.editorconfig
